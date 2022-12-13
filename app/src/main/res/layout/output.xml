@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="410dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="165dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="410dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="#6200ED"
+            android:backgroundTint="#6200ED"
+            android:fontFamily="serif"
+            android:gravity="center_vertical"
+            android:text="Total Gold Value (RM)"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#F9F5FA"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/editTGV"
+            android:layout_width="372dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#6200EC"
+            android:ems="10"
+            android:inputType="numberSigned"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#F9F7FA"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="410dp"
+        android:layout_height="145dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="410dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="#6200EC"
+            android:backgroundTint="#6200EC"
+            android:fontFamily="serif"
+            android:gravity="center_vertical"
+            android:text="Total Zakat Payable (gram)"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#FBF7FD"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            tools:ignore="RtlCompat" />
+
+        <EditText
+            android:id="@+id/editTZP"
+            android:layout_width="372dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#6200EB"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="numberSigned"
+            android:textAllCaps="false"
+            android:textColor="#FAF8FD"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="410dp"
+        android:layout_height="145dp"
+        android:layout_marginBottom="131dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="410dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="#6200EB"
+            android:backgroundTint="#6200EB"
+            android:fontFamily="serif"
+            android:gravity="center|center_vertical"
+            android:text="TOTAL ZAKAT (RM)"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#F9F5FA"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/editTZ"
+            android:layout_width="372dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:backgroundTint="#6200EA"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="numberSigned"
+            android:textAllCaps="false"
+            android:textColor="#FBFAFD"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="163dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"></LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

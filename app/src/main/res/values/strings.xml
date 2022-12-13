@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyZakat</string>
+    <string name="copyright">Copyright &#169; 2022 VIC </string>
+    <string name="about_text">This is a Mobile Technology Assignment which is develop mobile application for estimating Zakat payment for gold keeping. </string>
+</resources>
